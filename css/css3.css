@@ -1,0 +1,158 @@
+    
+ #border {
+   
+    width: 1313px;	height: 613px; /* Размеры */
+       background: linear-gradient(to top, #fefcea, lightgray);
+   border: 11px solid #000; /* Белая рамка */
+
+
+    border-bottom-left-radius: 10px; /* Радиус скругления */
+     border-bottom-right-radius: 10px;
+     
+   }
+#roac{
+        position: absolute;
+    text-align: justify;
+  min-width: 1313px;
+    font-size: 18px;
+    font-family: Cursive;
+    color: firebrick;
+    top: 110px;
+    left: 21px;
+    right: 26px;}
+#roac:first-letter{
+     
+ 
+    font-size: 35px;
+    font-family: 'Algerian';
+    color: blue;
+    
+
+}
+#diamond {
+    position:inherit;
+    width: 160px;
+    height: 160px;
+    background: #1eff00;
+    border:4px solid black;
+
+/* Rotate */
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  margin-top: -210px; /* Расстояние от верхнего края */
+  margin-left: 570px; /* Расстояние от левого края */
+}
+
+#diamond1 {
+     position:inherit;
+    width: 160px;
+    height: 160px;
+    background: #1eff00;
+    border:4px solid black;
+
+/* Rotate */
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  margin-top: -160px; /* Расстояние от верхнего края */
+  margin-left: 670px; /* Расстояние от левого края */
+}
+#diamond2 {
+     position:inherit;
+    width: 160px;
+    height: 160px;
+    background: #1eff00;
+    border:4px solid black;
+
+/* Rotate */
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  margin-top: -170px; /* Расстояние от верхнего края */
+  margin-left: 770px; /* Расстояние от левого края */
+}
+#text{
+     -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  -webkit-transform-origin: 57% 180%;
+    -moz-transform-origin: 57% 180%;
+    -ms-transform-origin: 57% 180%;
+    -o-transform-origin: 57% 180%;
+    transform-origin: 57% 180%;
+    font-size: 30px;
+    color: deepskyblue;
+}
+
+.trapezium {
+    height: 0;
+    width: 180px;
+    
+    border-top: 60px solid black;
+    border-left: 0px solid transparent;
+    border-right: 40px solid transparent;
+   margin-top: -590px; /* Расстояние от верхнего края */
+}
+.trapezium span{
+    font-size: 30px;
+    color:skyblue;
+    display:inline-block;
+    position:absolute;
+    top:20px;   
+    left:60px;
+}
+#blink{
+    -webkit-animation: blink 2s linear infinite; 
+    animation: blink 2s linear infinite;
+       -webkit-transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    -o-transform: rotate(50deg);
+    transform: rotate(50deg);
+  -webkit-transform-origin: 57% 180%;
+    -moz-transform-origin: 57% 180%;
+    -ms-transform-origin: 57% 180%;
+    -o-transform-origin: 57% 180%;
+    transform-origin: 57% 180%;
+     margin-left: -190px; /* Расстояние от левого края */
+     margin-top: -110px; /* Расстояние от верхнего края */
+    color: navy;
+    
+    font-size: 40px;
+} 
+@-webkit-keyframes blink {
+    50% { color: rgb(34, 34, 34); }
+    51% { color: rgba(34, 34, 34, 0); }
+    100% { color: rgba(34, 34, 34, 0); } } 
+@keyframes blink {
+    50% { color: rgb(34, 34, 34); }
+    51% { color: rgba(34, 34, 34, 0); } 
+    100% { color: rgba(34, 34, 34, 0); } }
+}
